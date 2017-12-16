@@ -1,0 +1,37 @@
+{
+  "name": "chromecast-radar",
+  "version": "0.0.2",
+  "description": "scan your local network for chromecast devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZetaE/chromecast-radar/"
+  },
+  "keywords": [
+    "chromecast",
+    "mdns",
+    "scanner",
+    "radar"
+  ],
+  "author": "Cesare Moschini",
+  "license": "MIT",
+  "dependencies": {
+    "array-find": "^1.0.0",
+    "foia": "^1.0.1",
+    "multicast-dns": "^6.2.0",
+    "node-ssdp-js": "^0.9.6",
+    "superagent": "^3.8.2",
+    "underscore": "^1.8.3",
+    "url": "^0.11.0",
+    "util": "^0.10.3",
+    "xml2json": "^0.11.0",
+    "xml2json-light": "^1.0.4",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0"
+  }
+}
